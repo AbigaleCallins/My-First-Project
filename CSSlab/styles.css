@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.row > .top, .bottom, .center {
+.row > div {
     height: 100px;
     width: 100px;
     float: left;
@@ -13,20 +13,21 @@
     margin: 0 auto;
     clear: both;
     width: 302px;
+    cursor: pointer;
 }
 
 .top {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid black;
 }
 
-.bottom {
+.bottom{
     border-top: 1px solid black;
 }
 
 .left {
-    border-right: 1px solid brown;
+    border-right: 1px solid black;
 }
 
 .right {
-    border-left: 1px solid blueviolet
+    border-left: 1px solid black;
 }
